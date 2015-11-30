@@ -223,3 +223,511 @@ T119	Object 1493 1506	Justin Beiber
 R100	p_o Arg1:T118 Arg2:T119	
 R101	s_p Arg1:T114 Arg2:T118	
 R102	s_p Arg1:T113 Arg2:T118	
+T120	Subject 1589 1593	Alan
+T121	Predicate 1594 1605	was singing
+T122	Object 1606 1612	a song
+T123	Subject 1613 1618	which
+T124	Predicate 1619 1630	was playing
+R103	s_p Arg1:T123 Arg2:T124	
+R104	coref Arg1:T123 Arg2:T122	
+R105	s_p Arg1:T120 Arg2:T121	
+R106	p_o Arg1:T121 Arg2:T122	
+T125	Subject 1631 1635	Alan
+T126	Predicate 1636 1647	was singing
+T127	Object 1648 1654	a song
+T128	Subject 1660 1662	he
+T129	Predicate 1663 1672	had heard
+T130	Context 1673 1679	before
+A5	Time T130
+R107	p_c Arg1:T129 Arg2:T130	
+R108	s_p Arg1:T128 Arg2:T129	
+R109	coref Arg1:T128 Arg2:T125	
+R110	s_p Arg1:T125 Arg2:T126	
+R111	p_o Arg1:T126 Arg2:T127	
+T131	Seg 1741 1747	Adam's
+T132	Seg 1748 1752	food
+R112	poss Arg1:T132 Arg2:T131	
+T133	Seg 1753 1756	His
+T134	Seg 1757 1761	food
+R113	poss Arg1:T134 Arg2:T133	
+T135	Subject 1762 1766	Adam
+T136	Predicate 1767 1770	ate
+T137	Seg 1771 1774	his
+T138	Object 1775 1779	food
+R114	poss Arg1:T138 Arg2:T137	
+R115	s_p Arg1:T135 Arg2:T136	
+R116	p_o Arg1:T136 Arg2:T138	
+R117	coref Arg1:T137 Arg2:T135	
+T139	Subject 1781 1785	Adam
+T140	Predicate 1786 1789	ate
+T141	Object 1797 1801	food
+T142	Seg 1790 1796	John's
+R118	poss Arg1:T141 Arg2:T142	
+R119	p_o Arg1:T140 Arg2:T141	
+R120	s_p Arg1:T139 Arg2:T140	
+T143	Seg 1904 1910	palace
+T144	Seg 1891 1903	Presidential
+R121	is-specialized-by Arg1:T143 Arg2:T144	
+T145	Seg 1919 1925	Dinner
+T146	Seg 1911 1918	Awesome
+R122	is-specialized-by Arg1:T145 Arg2:T146	
+T147	Seg 1926 1933	Amazing
+T148	Seg 1934 1940	coffee
+R123	is-specialized-by Arg1:T148 Arg2:T147	
+T149	Seg 1941 1946	First
+T150	Seg 1947 1950	war
+R124	is-specialized-by Arg1:T150 Arg2:T149	
+T151	Seg 1951 1961	Newzealand
+T152	Seg 1962 1970	Marathon
+R125	is-specialized-by Arg1:T152 Arg2:T151	
+T153	Seg 1971 1972	2
+T154	Seg 1973 1977	cups
+R126	is-specialized-by Arg1:T154 Arg2:T153	
+T155	Subject 2158 2167	John snow
+T156	Predicate 2168 2174	killed
+T157	Object 2197 2200	men
+T158	Seg 2175 2182	hundred
+T159	Seg 2183 2196	white walkers
+R127	is-specialized-by Arg1:T157 Arg2:T159	
+R128	is-specialized-by Arg1:T157 Arg2:T158	
+R129	p_o Arg1:T156 Arg2:T157	
+R130	s_p Arg1:T155 Arg2:T156	
+T160	Subject 2201 2210	John snow
+T161	Predicate 2211 2214	ran
+T162	Object 2230 2238	marathon
+T163	Seg 2219 2229	kilometers
+T164	Seg 2215 2218	100
+R131	coref Arg1:T162 Arg2:T163	
+R132	coref Arg1:T163 Arg2:T164	
+R133	p_o Arg1:T161 Arg2:T162	
+R134	s_p Arg1:T160 Arg2:T161	
+T165	Subject 2240 2249	John Snow
+T166	Predicate 2250 2252	is
+T167	Object 2262 2268	height
+T168	Seg 2255 2261	meters
+T169	Seg 2253 2254	2
+R135	p_o Arg1:T166 Arg2:T167	
+R136	is-specialized-by Arg1:T167 Arg2:T168	
+R137	is-specialized-by Arg1:T168 Arg2:T169	
+R138	s_p Arg1:T165 Arg2:T166	
+T170	Subject 2269 2278	John Snow
+T171	Predicate 2279 2281	is
+T172	Object 2284 2290	meters
+T173	Seg 2282 2283	2
+R139	is-specialized-by Arg1:T172 Arg2:T173	
+R140	p_o Arg1:T171 Arg2:T172	
+R141	s_p Arg1:T170 Arg2:T171	
+T174	Subject 2666 2670	john
+T175	Predicate 2671 2677	killed
+T176	Object 2686 2689	men
+T177	Seg 2680 2685	white
+T178	Seg 2678 2679	2
+R142	is-specialized-by Arg1:T176 Arg2:T177	
+R143	is-specialized-by Arg1:T176 Arg2:T178	
+R144	p_o Arg1:T175 Arg2:T176	
+R145	s_p Arg1:T174 Arg2:T175	
+T179	Subject 2690 2694	john
+T180	Predicate 2695 2701	killed
+T181	Object 2711 2716	snake
+T182	Seg 2702 2703	5
+T183	Seg 2704 2710	headed
+R146	s_p Arg1:T179 Arg2:T180	
+R147	p_o Arg1:T180 Arg2:T181	
+R148	is-specialized-by Arg1:T181 Arg2:T183	
+R149	is-specialized-by Arg1:T183 Arg2:T182	
+T184	Seg 2759 2767	constant
+T185	Subject 2768 2777	hammering
+T186	Predicate 2778 2781	was
+T187	Object 2782 2790	annoying
+T188	Seg 2755 2758	His
+R150	is-specialized-by Arg1:T185 Arg2:T184	
+R151	poss Arg1:T185 Arg2:T188	
+R152	s_p Arg1:T185 Arg2:T186	
+R153	p_o Arg1:T186 Arg2:T187	
+T189	Seg 2857 2866	President
+T190	Context-Prep 2867 2869	of
+T191	Context-Obj 2870 2877	Germany
+R154	c_co Arg1:T190 Arg2:T191	
+R155	is-specialized-by Arg1:T189 Arg2:T190	
+T192	Seg 2900 2909	elections
+T193	Context-Prep 2910 2912	of
+T194	Context-Obj 2913 2926	United states
+R156	c_co Arg1:T193 Arg2:T194	
+R157	is-specialized-by Arg1:T192 Arg2:T193	
+T195	Seg 2887 2899	presidential
+T196	Seg 2878 2886	The 1996
+R158	is-specialized-by Arg1:T192 Arg2:T195	
+T197	Subject 2927 2928	I
+T198	Predicate 2929 2934	drank
+T199	Object 2946 2952	coffee
+T200	Seg 2935 2945	an amazing
+R159	p_o Arg1:T198 Arg2:T199	
+R160	s_p Arg1:T197 Arg2:T198	
+R161	is-specialized-by Arg1:T199 Arg2:T200	
+T201	Subject 2953 2956	she
+T202	Predicate 2957 2962	drank
+T203	Object 2965 2969	cups
+T204	Context-Prep 2970 2972	of
+T205	Context-Obj 2973 2979	coffee
+R162	is-specialized-by Arg1:T203 Arg2:T204	
+R163	c_co Arg1:T204 Arg2:T205	
+T206	Seg 2963 2964	2
+R164	is-specialized-by Arg1:T203 Arg2:T206	
+R165	p_o Arg1:T202 Arg2:T203	
+R166	s_p Arg1:T201 Arg2:T202	
+T207	Subject 2980 2981	I
+T208	Predicate 2982 2987	drank
+T209	Object 3001 3005	cups
+T210	Seg 2999 3000	2
+T211	Seg 2988 2998	an amazing
+T212	Context-Prep 3006 3008	of
+T213	Context-Obj 3009 3015	coffee
+R167	is-specialized-by Arg1:T209 Arg2:T212	
+R168	c_co Arg1:T212 Arg2:T213	
+R169	is-specialized-by Arg1:T209 Arg2:T210	
+R170	is-specialized-by Arg1:T209 Arg2:T211	
+R171	p_o Arg1:T208 Arg2:T209	
+R172	s_p Arg1:T207 Arg2:T208	
+T214	Subject 3016 3019	she
+T215	Predicate 3020 3025	drank
+T216	Object 3035 3041	coffee
+T217	Seg 3026 3034	a lot of
+R173	is-specialized-by Arg1:T216 Arg2:T217	
+R174	p_o Arg1:T215 Arg2:T216	
+R175	s_p Arg1:T214 Arg2:T215	
+T218	Subject 3116 3117	I
+T219	Predicate 3118 3122	went
+T220	Object 3123 3127	work
+T221	Context 3128 3134	slowly
+R176	s_p Arg1:T218 Arg2:T219	
+R177	p_c Arg1:T219 Arg2:T221	
+R178	p_o Arg1:T219 Arg2:T220	
+T222	Subject 3164 3165	I
+T223	Predicate 3166 3171	drove
+T224	Object 3172 3180	the kids
+T225	Context 3181 3185	home
+A6	Location T225
+R179	p_o Arg1:T223 Arg2:T224	
+R180	s_p Arg1:T222 Arg2:T223	
+R181	p_c Arg1:T223 Arg2:T225	
+T226	Subject 3187 3188	I
+T227	Predicate 3189 3193	went
+T228	Object 3194 3198	home
+R182	s_p Arg1:T226 Arg2:T227	
+R183	p_o Arg1:T227 Arg2:T228	
+T229	Subject 3228 3229	I
+T230	Predicate 3230 3235	drove
+T231	Object 3236 3244	the kids
+T232	Context-Prep 3245 3247	to
+T233	Context-Obj 3248 3252	home
+A7	Location T232
+R184	c_co Arg1:T232 Arg2:T233	
+R185	p_c Arg1:T230 Arg2:T232	
+R186	p_o Arg1:T230 Arg2:T231	
+R187	s_p Arg1:T229 Arg2:T230	
+T234	Subject 3254 3255	I
+T235	Predicate 3256 3261	drove
+T236	Object 3262 3270	the kids
+T237	Context-Prep 3271 3273	to
+T238	Context-Obj 3274 3278	home
+T239	Context-Prep 3279 3281	in
+T240	Context-Obj 3282 3293	the evening
+R188	s_p Arg1:T234 Arg2:T235	
+R189	p_o Arg1:T235 Arg2:T236	
+R190	c_co Arg1:T237 Arg2:T238	
+R191	c_co Arg1:T239 Arg2:T240	
+R192	p_c Arg1:T235 Arg2:T237	
+R193	p_c Arg1:T235 Arg2:T239	
+T241	Subject 3295 3297	we
+T242	Predicate 3298 3301	had
+T243	Object 3302 3308	dinner
+T244	Context-Prep 3309 3311	at
+T245	Context-Obj 3312 3324	a restaurant
+R194	s_p Arg1:T241 Arg2:T242	
+R195	p_o Arg1:T242 Arg2:T243	
+R196	p_c Arg1:T242 Arg2:T244	
+R197	c_co Arg1:T244 Arg2:T245	
+T246	Subject 3325 3327	we
+T247	Predicate 3328 3333	dined
+T248	Context-Prep 3334 3336	in
+T249	Context-Obj 3337 3349	a restaurant
+A8	Location T248
+R198	c_co Arg1:T248 Arg2:T249	
+R199	s_p Arg1:T246 Arg2:T247	
+R200	p_c Arg1:T247 Arg2:T248	
+A9	Location T244
+A10	Location T237
+A11	Time T239
+T250	Subject 3504 3506	we
+T251	Predicate 3507 3510	had
+T252	Object 3511 3517	dinner
+T253	Context 3494 3503	yesterday
+T254	Context-Obj 3482 3493	six o'clock
+T255	Context-Prep 3479 3481	at
+R201	s_p Arg1:T250 Arg2:T251	
+R202	p_o Arg1:T251 Arg2:T252	
+R203	p_c Arg1:T251 Arg2:T253	
+R204	c_co Arg1:T255 Arg2:T254	
+R205	p_c Arg1:T251 Arg2:T255	
+T256	Context 3518 3525	usually
+T257	Context-Prep 3540 3542	at
+T258	Context-Obj 3543 3554	six o'clock
+R206	c_co Arg1:T257 Arg2:T258	
+T259	Subject 3526 3527	i
+T260	Predicate 3528 3532	have
+T261	Object 3533 3539	dinner
+R207	s_p Arg1:T259 Arg2:T260	
+R208	p_o Arg1:T260 Arg2:T261	
+R209	p_c Arg1:T260 Arg2:T257	
+R210	p_c Arg1:T260 Arg2:T256	
+A12	Time T256
+A13	Time T257
+A14	Time T255
+A15	Time T253
+T262	Subject 3570 3572	He
+T263	Predicate 3573 3580	stopped
+T264	Predicate 3581 3587	asking
+T265	Object 3588 3597	questions
+R211	s_p Arg1:T262 Arg2:T263	
+R212	p_p Arg1:T263 Arg2:T264	
+R213	p_o Arg1:T264 Arg2:T265	
+T266	Subject 3695 3697	He
+T267	Predicate 3698 3705	enjoyed
+T268	Object 3706 3715	torturing
+R214	s_p Arg1:T266 Arg2:T267	
+R215	p_o Arg1:T267 Arg2:T268	
+T269	Subject 3717 3719	He
+T270	Predicate 3720 3727	enjoyed
+T271	Predicate 3728 3737	torturing
+T272	Object 3742 3749	friends
+T273	Seg 3738 3741	his
+R216	s_p Arg1:T269 Arg2:T270	
+R217	p_p Arg1:T270 Arg2:T271	
+R218	p_o Arg1:T271 Arg2:T272	
+R219	poss Arg1:T272 Arg2:T273	
+R220	coref Arg1:T273 Arg2:T269	
+T274	Subject 3751 3753	He
+T275	Predicate 3754 3761	enjoyed
+T277	Predicate 3765 3772	torture
+T278	Object 3777 3784	friends
+T279	Seg 3773 3776	his
+R221	p_p Arg1:T275 Arg2:T277	
+R222	s_p Arg1:T274 Arg2:T275	
+R223	p_o Arg1:T277 Arg2:T278	
+R224	poss Arg1:T278 Arg2:T279	
+R225	coref Arg1:T279 Arg2:T274	
+T276	Subject 3786 3788	He
+T280	Predicate 3789 3796	stopped
+T281	Context-Prep 3797 3799	to
+T282	Predicate 3800 3807	torture
+T283	Seg 3808 3811	his
+T284	Object 3812 3819	friends
+R226	p_o Arg1:T282 Arg2:T284	
+R227	s_p Arg1:T276 Arg2:T280	
+R228	p_c Arg1:T280 Arg2:T281	
+R229	c_p Arg1:T281 Arg2:T282	
+R230	poss Arg1:T284 Arg2:T283	
+R231	coref Arg1:T283 Arg2:T276	
+T285	Subject 3911 3913	He
+T286	Predicate 3914 3921	enjoyed
+T287	Subject 3927 3929	he
+T288	Predicate 3930 3937	torture
+T289	Object 3942 3949	friends
+T290	Seg 3938 3941	his
+R232	s_p Arg1:T287 Arg2:T288	
+R233	p_o Arg1:T288 Arg2:T289	
+R234	poss Arg1:T289 Arg2:T290	
+R235	coref Arg1:T290 Arg2:T287	
+R236	s_p Arg1:T285 Arg2:T286	
+R237	p_p Arg1:T286 Arg2:T288	
+R238	coref Arg1:T287 Arg2:T285	
+T291	Subject 4129 4131	He
+T292	Predicate 4132 4136	gave
+T293	Subject 4075 4077	He
+T294	Predicate 4078 4082	gave
+T295	Object 4083 4086	him
+T296	Object 4087 4097	a sandwich
+R239	s_p Arg1:T293 Arg2:T294	
+R240	p_o Arg1:T294 Arg2:T295	
+R241	p_o Arg1:T294 Arg2:T296	
+T297	Object 4137 4149	the sandwich
+T298	Context-Prep 4150 4152	to
+T299	Context-Obj 4153 4156	him
+R242	c_co Arg1:T298 Arg2:T299	
+R243	s_p Arg1:T291 Arg2:T292	
+R244	p_o Arg1:T292 Arg2:T297	
+R245	p_c Arg1:T292 Arg2:T298	
+T300	Subject 4379 4383	Mary
+T301	Predicate 4384 4390	opened
+T302	Object 4391 4399	the door
+T303	Context-Prep 4400 4403	for
+T304	Context-Obj 4408 4414	father
+T305	Seg 4404 4407	her
+R246	c_co Arg1:T303 Arg2:T304	
+R247	poss Arg1:T304 Arg2:T305	
+R248	coref Arg1:T305 Arg2:T300	
+R249	s_p Arg1:T300 Arg2:T301	
+R250	p_o Arg1:T301 Arg2:T302	
+R251	p_c Arg1:T301 Arg2:T303	
+T306	Subject 4415 4419	Mary
+T307	Predicate 4420 4426	opened
+T308	Object 4427 4435	the door
+T309	Context-Prep 4436 4441	while
+A16	Time T309
+T310	Subject 4446 4452	father
+T311	Predicate 4453 4464	was cooking
+T312	Object 4465 4475	the dinner
+T313	Seg 4442 4445	her
+R252	s_p Arg1:T306 Arg2:T307	
+R253	p_o Arg1:T307 Arg2:T308	
+R254	p_c Arg1:T307 Arg2:T309	
+R255	c_p Arg1:T309 Arg2:T311	
+R256	s_p Arg1:T310 Arg2:T311	
+R257	p_o Arg1:T311 Arg2:T312	
+R258	poss Arg1:T310 Arg2:T313	
+R259	coref Arg1:T313 Arg2:T306	
+T314	Subject 4493 4494	I
+T315	Predicate 4502 4506	have
+T316	Object 4507 4515	a shower
+T317	Context 4495 4501	always
+R260	s_p Arg1:T314 Arg2:T315	
+R261	p_o Arg1:T315 Arg2:T316	
+R262	p_c Arg1:T315 Arg2:T317	
+T318	Context-Prep 4476 4482	Before
+T319	Context-Obj 4483 4492	Breakfast
+R263	c_co Arg1:T318 Arg2:T319	
+R264	p_c Arg1:T315 Arg2:T318	
+T320	Subject 4548 4549	I
+T321	Predicate 4550 4557	arrived
+T322	Context-Prep 4558 4560	to
+T323	Context-Obj 4561 4565	work
+R265	s_p Arg1:T320 Arg2:T321	
+R266	p_c Arg1:T321 Arg2:T322	
+R267	c_co Arg1:T322 Arg2:T323	
+T324	Subject 4566 4567	I
+T325	Predicate 4568 4573	drove
+T326	Object 4574 4581	the car
+T327	Context-Prep 4582 4584	to
+T328	Context-Obj 4585 4589	work
+R268	s_p Arg1:T324 Arg2:T325	
+R269	p_o Arg1:T325 Arg2:T326	
+R270	p_c Arg1:T325 Arg2:T327	
+R271	c_co Arg1:T327 Arg2:T328	
+T329	Subject 4658 4672	Thomas Lincoln
+T330	Predicate 4673 4679	worked
+T331	Context-Prep 4680 4682	as
+T332	Context-Obj 4683 4691	a farmer
+T333	Context-Obj 4693 4705	cabinetmaker
+T334	Context-Obj 4711 4720	carpenter
+T335	Conj 4707 4710	and
+R272	conj Arg1:T335 Arg2:T334	
+R273	conj Arg1:T335 Arg2:T333	
+R274	conj Arg1:T335 Arg2:T332	
+R275	c_co Arg1:T331 Arg2:T332	
+R276	c_co Arg1:T331 Arg2:T333	
+R277	c_co Arg1:T331 Arg2:T334	
+R278	s_p Arg1:T329 Arg2:T330	
+R279	p_c Arg1:T330 Arg2:T331	
+T336	Context-Prep 4607 4613	During
+T337	Context-Obj 4627 4632	years
+T338	Seg 4614 4626	the family's
+R280	poss Arg1:T337 Arg2:T338	
+R281	c_co Arg1:T336 Arg2:T337	
+T339	Context-Prep 4633 4635	in
+T340	Context-Obj 4636 4644	Kentucky
+T341	Context-Obj 4649 4656	Indiana
+T342	Conj 4645 4648	and
+R282	conj Arg1:T342 Arg2:T341	
+R283	conj Arg1:T342 Arg2:T340	
+R284	c_co Arg1:T339 Arg2:T340	
+R285	c_co Arg1:T339 Arg2:T341	
+R286	is-specialized-by Arg1:T337 Arg2:T339	
+R287	p_c Arg1:T330 Arg2:T336	
+T343	Subject 4772 4778	Thomas
+T344	Predicate 4779 4786	claimed
+T345	Object 4787 4792	title
+T346	Context-Prep 4793 4795	to
+T347	Context-Obj 4796 4804	the king
+T348	Context-Prep 4805 4807	of
+T349	Context-Obj 4808 4820	Indiana land
+R288	is-specialized-by Arg1:T347 Arg2:T348	
+R289	c_co Arg1:T348 Arg2:T349	
+R290	c_co Arg1:T346 Arg2:T347	
+R291	is-specialized-by Arg1:T345 Arg2:T346	
+R292	s_p Arg1:T343 Arg2:T344	
+R293	p_o Arg1:T344 Arg2:T345	
+T350	Context-Prep 4722 4728	Within
+T351	Context-Obj 4729 4735	a year
+R294	c_co Arg1:T350 Arg2:T351	
+T352	Context-Obj 4752 4759	arrival
+T353	Context-Prep 4736 4738	of
+T354	Seg 4739 4751	the family's
+T355	Context-Prep 4760 4762	in
+T356	Context-Obj 4763 4770	Indiana
+R295	is-specialized-by Arg1:T352 Arg2:T355	
+R296	c_co Arg1:T355 Arg2:T356	
+R297	poss Arg1:T352 Arg2:T354	
+R298	c_co Arg1:T353 Arg2:T352	
+R299	is-specialized-by Arg1:T351 Arg2:T353	
+R300	p_c Arg1:T344 Arg2:T350	
+T357	Subject 4822 4825	Sue
+T358	Predicate 4826 4831	asked
+T359	Object 4832 4838	George
+T360	Predicate 4842 4849	respond
+R301	s_p Arg1:T357 Arg2:T358	
+R302	p_o Arg1:T358 Arg2:T359	
+T361	Context-Prep 4839 4841	to
+T362	Context-Prep 4850 4852	to
+T363	Context-Obj 4857 4862	offer
+T364	Seg 4853 4856	her
+R303	poss Arg1:T363 Arg2:T364	
+R304	coref Arg1:T364 Arg2:T357	
+R305	p_c Arg1:T358 Arg2:T361	
+R306	c_p Arg1:T361 Arg2:T360	
+R307	p_c Arg1:T360 Arg2:T362	
+R308	c_co Arg1:T362 Arg2:T363	
+T365	Subject 4863 4866	Sue
+T366	Predicate 4867 4872	asked
+T367	Context-Prep 4873 4875	if
+T368	Subject 4876 4882	George
+T369	Predicate 4883 4897	will responded
+T370	Context-Prep 4898 4900	to
+T371	Seg 4901 4904	her
+T372	Context-Obj 4905 4910	offer
+R309	s_p Arg1:T365 Arg2:T366	
+R310	p_c Arg1:T366 Arg2:T367	
+R311	c_p Arg1:T367 Arg2:T369	
+R312	s_p Arg1:T368 Arg2:T369	
+R313	p_c Arg1:T369 Arg2:T370	
+R314	c_co Arg1:T370 Arg2:T372	
+R315	poss Arg1:T372 Arg2:T371	
+R316	coref Arg1:T371 Arg2:T365	
+T373	Subject 4911 4914	Sue
+T374	Predicate 4915 4920	asked
+T375	Object 4921 4927	George
+T376	Context-Prep 4928 4930	if
+T377	Subject 4931 4933	he
+T378	Predicate 4934 4946	will respond
+T379	Context-Prep 4947 4949	to
+T380	Context-Obj 4954 4959	offer
+T381	Seg 4950 4953	her
+R317	c_co Arg1:T379 Arg2:T380	
+R318	s_p Arg1:T377 Arg2:T378	
+R319	p_c Arg1:T378 Arg2:T379	
+R320	s_p Arg1:T373 Arg2:T374	
+R321	p_o Arg1:T374 Arg2:T375	
+R322	p_c Arg1:T374 Arg2:T376	
+R323	c_p Arg1:T376 Arg2:T378	
+T382	Subject 4960 4963	Sue
+T383	Predicate 4964 4971	thought
+T384	Subject 4977 4983	George
+T385	Predicate 4984 4993	responded
+T386	Context-Prep 4994 4996	to
+T387	Context-Obj 5001 5006	offer
+T388	Seg 4997 5000	her
+R324	s_p Arg1:T382 Arg2:T383	
+R325	p_p Arg1:T383 Arg2:T385	
+R326	s_p Arg1:T384 Arg2:T385	
+R327	p_c Arg1:T385 Arg2:T386	
+R328	c_co Arg1:T386 Arg2:T387	
+R329	poss Arg1:T387 Arg2:T388	

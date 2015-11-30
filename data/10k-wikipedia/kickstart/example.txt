@@ -62,7 +62,27 @@ Amazing coffee
 First war
 Newzealand Marathon
 2 cups
+
+
+# always the most general term is the object
+# height is more general than meters, meters are more general than 2
+# ( i might said it wrong in the classroom presentation sorry)
+
+John snow killed hundred white walkers men
+John snow ran 100 kilometers marathon
+
 John Snow is 2 meters height
+John Snow is 2 meters
+# a way to check is http://nlp.stanford.edu:8080/parser/index.jsp (stanford dependency parser)
+# if the predicate is "verb to be" check the "cop" dependency relation to be it's object
+# try yourself : input : john snow is 2 meters height    -> cop(height-5, is-2)
+# input : john snow is 2 meters -> cop(meters-4, is-2)
+
+#sometimes is specialized by can have one or two heads
+john killed 2 white men
+john killed 5 headed snake
+
+
 
 # subjects can also be specialized
 His constant hammering was annoying.
@@ -93,15 +113,31 @@ I drove the kids to home.
 I drove the kids to home in the evening.
 we had dinner at a restaurant
 we dined in a restaurant
+
+# for Context and Context-prep    double click and select either location or time , if the context represents location or time
+
 at six o'clock yesterday we had dinner
 usually i have dinner at six o'clock
 
 # 2nd object:
 He stopped asking questions.
+# if the object is the verb that has another object then reification is the way to represent it
+He enjoyed torturing.
+He enjoyed torturing his friends.
+He enjoyed to torture his friends.
+He stopped to torture his friends.
+
+# the first example "to" was complementary stop word could be omitted ( same as "that" )
+He enjoyed that he torture his friends
+# in the 2nd example "to" had the meaning of causality so we keeped it as content
+
+# 2nd object : but both objects are nouns
 He gave him a sandwich
 
 # but in case of preposition:
 He gave the sandwich to him
+
+# for more info check  "iobj" (indirect object) and "dobj" (direct objects) in stanford universal dependencies :http://nlp.stanford.edu/software/dependencies_manual.pdf
 
 
 
@@ -120,7 +156,9 @@ Real Examples:
 During the family's years in Kentucky and Indiana, Thomas Lincoln worked as a farmer, cabinetmaker, and carpenter.
 Within a year of the family's arrival in Indiana, Thomas claimed title to the king of Indiana land.
 Sue asked George to respond to her offer
-
+Sue asked if George will responded to her offer
+Sue asked George if he will respond to her offer
+Sue thought that George responded to her offer
 
 # but not (anything that has wikipedia entry):
 New York
