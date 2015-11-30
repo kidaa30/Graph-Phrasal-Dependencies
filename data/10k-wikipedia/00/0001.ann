@@ -17,5 +17,5 @@ R7	c_p Arg1:T4 Arg2:T6
 T10	Context-Obj 70 81	productions
 T11	Seg 58 69	church play
 R8	is-specialized-by Arg1:T10 Arg2:T11	
-R9	c_p Arg1:T9 Arg2:T10	
+R9	c_co Arg1:T9 Arg2:T10	
 R10	p_c Arg1:T2 Arg2:T9	

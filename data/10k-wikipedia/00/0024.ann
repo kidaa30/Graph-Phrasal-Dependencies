@@ -18,6 +18,11 @@ R7	conj Arg1:T10 Arg2:T6
 R8	conj Arg1:T10 Arg2:T4	
 R9	conj Arg1:T10 Arg2:T2	
 T11	Context-Prep 0 2	In
-T12	Context-Obj 3 11	doing so
+T12	Predicate 3 8	doing
 R10	c_p Arg1:T11 Arg2:T12	
 R11	p_c Arg1:T2 Arg2:T11	
+R12	s_p Arg1:T1 Arg2:T4	
+R13	s_p Arg1:T1 Arg2:T6	
+R14	s_p Arg1:T1 Arg2:T8	
+T13	Object 9 11	so
+R15	p_o Arg1:T12 Arg2:T13	
