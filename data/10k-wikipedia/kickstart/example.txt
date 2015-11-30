@@ -1,13 +1,37 @@
-
 Humans are living organisms
 The kid ate the chocolate
 Comedians are extremely good
 John Is getting married
+# john/NN is/VBZ getting/VBG married/JJ    (is getting is the verb) (married is an adjective)
+# Verb 2 be + verb + ing   => property
 John is marrying Jane
-John is getting married with Jane
-I was going to have dinner
 I am studying Mathematics
-I used to learn french
+# prep  + noun     =>  Context-prep, Context-object
+John is getting married with Jane
+# be + going + to  + verb   =>  property  ( is going to modifies the very only but it's not stand alone property )
+I was going to have dinner
+
+
+# Reification ( Relaitons between relations ) :
+-----------------------------------------------
+People believed the earth was flat
+People believed in the past the earth was flat
+He claimed he didn't kill the man
+
+# ignore useless complementizers: (https://en.wikipedia.org/wiki/Complementizer)
+# if you can omit it and keep the same meaning then it's auxiliary and don't annotate it
+
+People believed that the earth was flat
+He claimed that he didn't kill the man
+he assumed that the door was closed
+He thought he was guilty
+
+# more examples
+In the 19th Century People believed earth was flat
+People believe earth is rounded now
+I love you is often heard these days
+It was known by everyone that he had traveled the world
+
 
 # Conjugations:
 ---------------
@@ -39,7 +63,10 @@ First war
 Newzealand Marathon
 2 cups
 John Snow is 2 meters height
+
+# subjects can also be specialized
 His constant hammering was annoying.
+
 
 
 # specialization with context:
@@ -70,7 +97,12 @@ at six o'clock yesterday we had dinner
 usually i have dinner at six o'clock
 
 # 2nd object:
-He stopped to ask questions.
+He stopped asking questions.
+He gave him a sandwich
+
+# but in case of preposition:
+He gave the sandwich to him
+
 
 
 # After, Before, While, when, at the same time:
@@ -83,18 +115,11 @@ Before Breakfast I always have a shower
 I arrived to work
 I drove the car to work
 
-# Reification:
-People believed earth was flat
-In the 19th Century People believed earth was flat
-People believe earth is rounded now
-I love you is often heard these days.
-It was known by everyone that he had traveled the world.
-
 
 Real Examples:
 During the family's years in Kentucky and Indiana, Thomas Lincoln worked as a farmer, cabinetmaker, and carpenter.
 Within a year of the family's arrival in Indiana, Thomas claimed title to the king of Indiana land.
-
+Sue asked George to respond to her offer
 
 
 # but not (anything that has wikipedia entry):

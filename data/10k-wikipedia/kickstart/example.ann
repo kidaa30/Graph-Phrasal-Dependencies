@@ -1,22 +1,225 @@
-T1	Subject 191 192	I
-T2	Predicate 193 204	am studying
-T3	Object 205 216	Mathematics
-T4	Subject 217 218	I
-T5	Predicate 219 232	used to learn
-T6	Object 233 239	french
-T7	Subject 130 134	John
-T8	Predicate 135 145	is getting
-T9	Object 146 153	married
-T10	Context-Prep 154 158	with
-T11	Context-Obj 159 163	Jane
-T12	Subject 108 112	John
-T13	Predicate 113 124	is marrying
-T14	Object 125 129	Jane
-T15	Subject 84 88	John
-T16	Predicate 89 99	Is getting
-T17	Object 100 107	married
-T18	Subject 55 64	Comedians
-T19	Predicate 65 68	are
-T20	Object 79 83	good
-T21	Context 69 78	extremely
-T22	Subject 164 165	I
+T1	Subject 0 6	Humans
+T2	Predicate 7 10	are
+T3	Object 11 27	living organisms
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_o Arg1:T2 Arg2:T3	
+T4	Subject 28 35	The kid
+T5	Predicate 36 39	ate
+T6	Object 40 53	the chocolate
+R3	s_p Arg1:T4 Arg2:T5	
+R4	p_o Arg1:T5 Arg2:T6	
+T7	Subject 54 63	Comedians
+T8	Predicate 64 67	are
+T9	Object 78 82	good
+T10	Context 68 77	extremely
+R5	s_p Arg1:T7 Arg2:T8	
+R6	p_o Arg1:T8 Arg2:T9	
+T11	Subject 83 87	John
+T12	Predicate 88 98	Is getting
+T13	Object 99 106	married
+R8	s_p Arg1:T11 Arg2:T12	
+R9	p_o Arg1:T12 Arg2:T13	
+T14	Subject 240 244	John
+T15	Predicate 245 256	is marrying
+T16	Object 257 261	Jane
+R10	s_p Arg1:T14 Arg2:T15	
+R11	p_o Arg1:T15 Arg2:T16	
+T17	Subject 262 263	I
+T18	Predicate 264 275	am studying
+T19	Object 276 287	Mathematics
+R12	s_p Arg1:T17 Arg2:T18	
+R13	p_o Arg1:T18 Arg2:T19	
+T20	Subject 340 344	John
+T21	Predicate 345 355	is getting
+T22	Object 356 363	married
+T23	Context-Prep 364 368	with
+T24	Context-Obj 369 373	Jane
+R14	c_co Arg1:T23 Arg2:T24	
+R15	s_p Arg1:T20 Arg2:T21	
+R16	p_o Arg1:T21 Arg2:T22	
+R17	p_c Arg1:T21 Arg2:T23	
+T25	Subject 489 490	I
+T26	Predicate 491 508	was going to have
+T27	Object 509 515	dinner
+R18	s_p Arg1:T25 Arg2:T26	
+R19	p_o Arg1:T26 Arg2:T27	
+T28	Subject 614 620	People
+T29	Predicate 621 629	believed
+T30	Subject 630 639	the earth
+T31	Predicate 640 643	was
+T32	Object 644 648	flat
+R20	s_p Arg1:T28 Arg2:T29	
+R21	p_p Arg1:T29 Arg2:T31	
+R22	s_p Arg1:T30 Arg2:T31	
+R23	p_o Arg1:T31 Arg2:T32	
+T33	Subject 649 655	People
+T34	Predicate 656 664	believed
+T35	Context-Prep 665 667	in
+T36	Context-Obj 668 676	the past
+T37	Subject 677 686	the earth
+T38	Predicate 687 690	was
+T39	Object 691 695	flat
+R24	s_p Arg1:T37 Arg2:T38	
+R25	p_o Arg1:T38 Arg2:T39	
+R26	s_p Arg1:T33 Arg2:T34	
+R27	p_p Arg1:T34 Arg2:T38	
+R28	p_c Arg1:T34 Arg2:T35	
+R29	c_co Arg1:T35 Arg2:T36	
+T40	Subject 696 698	He
+T41	Predicate 699 706	claimed
+T42	Predicate 710 721	didn't kill
+T43	Subject 707 709	he
+T44	Object 722 729	the man
+R7	s_p Arg1:T40 Arg2:T41	
+R30	p_p Arg1:T41 Arg2:T42	
+R31	s_p Arg1:T43 Arg2:T42	
+R32	p_o Arg1:T42 Arg2:T44	
+T45	Subject 902 908	People
+T46	Predicate 909 917	believed
+T47	Subject 923 932	the earth
+T48	Predicate 933 936	was
+T49	Object 937 941	flat
+R33	s_p Arg1:T45 Arg2:T46	
+R34	p_p Arg1:T46 Arg2:T48	
+R35	s_p Arg1:T47 Arg2:T48	
+R36	p_o Arg1:T48 Arg2:T49	
+T50	Subject 942 944	He
+T51	Predicate 945 952	claimed
+T52	Subject 958 960	he
+T53	Predicate 961 972	didn't kill
+T54	Object 973 980	the man
+R37	s_p Arg1:T50 Arg2:T51	
+R38	s_p Arg1:T52 Arg2:T53	
+R39	p_o Arg1:T53 Arg2:T54	
+R40	p_p Arg1:T51 Arg2:T53	
+T55	Subject 981 983	he
+T56	Subject 997 1005	the door
+T57	Predicate 1006 1009	was
+T58	Object 1010 1016	closed
+T59	Predicate 984 991	assumed
+R41	p_p Arg1:T59 Arg2:T57	
+R42	s_p Arg1:T55 Arg2:T59	
+R43	s_p Arg1:T56 Arg2:T57	
+R44	p_o Arg1:T57 Arg2:T58	
+T60	Subject 1017 1019	He
+T61	Predicate 1020 1027	thought
+T62	Subject 1028 1030	he
+T63	Predicate 1031 1034	was
+T64	Object 1035 1041	guilty
+R45	s_p Arg1:T60 Arg2:T61	
+R46	p_p Arg1:T61 Arg2:T63	
+R47	s_p Arg1:T62 Arg2:T63	
+R48	p_o Arg1:T63 Arg2:T64	
+T65	Subject 1079 1085	People
+T66	Predicate 1086 1094	believed
+T67	Subject 1095 1100	earth
+T68	Predicate 1101 1104	was
+T69	Object 1105 1109	flat
+R49	s_p Arg1:T67 Arg2:T68	
+R50	p_o Arg1:T68 Arg2:T69	
+R51	s_p Arg1:T65 Arg2:T66	
+R52	p_p Arg1:T66 Arg2:T68	
+T70	Context-Prep 1059 1061	In
+T71	Context-Obj 1071 1078	Century
+T72	Seg 1062 1070	the 19th
+R53	is-specialized-by Arg1:T71 Arg2:T72	
+R54	c_co Arg1:T70 Arg2:T71	
+R55	p_c Arg1:T66 Arg2:T70	
+T73	Subject 1110 1116	People
+T74	Predicate 1117 1124	believe
+T75	Subject 1125 1130	earth
+T76	Predicate 1131 1133	is
+T77	Object 1134 1141	rounded
+T78	Context 1142 1145	now
+A1	Time T78
+A2	Time T70
+A3	Time T35
+R56	s_p Arg1:T73 Arg2:T74	
+R57	p_c Arg1:T74 Arg2:T78	
+R58	p_p Arg1:T74 Arg2:T76	
+R59	s_p Arg1:T75 Arg2:T76	
+R60	p_o Arg1:T76 Arg2:T77	
+R61	p_c Arg1:T8 Arg2:T10	
+T79	Subject 1146 1147	I
+T80	Predicate 1148 1152	love
+T81	Object 1153 1156	you
+T82	Predicate 1157 1171	is often heard
+T83	Context 1172 1182	these days
+A4	Time T83
+R62	s_p Arg1:T79 Arg2:T80	
+R63	p_o Arg1:T80 Arg2:T81	
+R64	p_p Arg1:T80 Arg2:T82	
+R65	p_c Arg1:T82 Arg2:T83	
+T84	Subject 1183 1185	It
+T85	Predicate 1186 1195	was known
+T87	Context-Prep 1196 1198	by
+T88	Context-Obj 1199 1207	everyone
+T89	Subject 1213 1215	he
+T90	Predicate 1216 1228	had traveled
+T91	Object 1229 1238	the world
+R66	s_p Arg1:T89 Arg2:T90	
+R67	p_o Arg1:T90 Arg2:T91	
+R68	s_p Arg1:T84 Arg2:T85	
+R70	c_co Arg1:T87 Arg2:T88	
+R71	p_c Arg1:T85 Arg2:T87	
+R69	p_p Arg1:T85 Arg2:T90	
+T86	Subject 1273 1279	Humans
+T92	Subject 1284 1291	animals
+T93	Object 1296 1312	living organisms
+T94	Predicate 1292 1295	are
+T95	Conj 1280 1283	and
+R72	conj Arg1:T95 Arg2:T92	
+R73	conj Arg1:T95 Arg2:T86	
+R74	s_p Arg1:T92 Arg2:T94	
+R75	s_p Arg1:T86 Arg2:T94	
+R76	p_o Arg1:T94 Arg2:T93	
+T96	Subject 1313 1319	Humans
+T97	Subject 1321 1328	animals
+T98	Subject 1333 1339	plants
+T99	Predicate 1340 1343	are
+T100	Object 1348 1364	Living organisms
+R77	p_o Arg1:T99 Arg2:T100	
+T101	Conj 1329 1332	and
+R78	conj Arg1:T101 Arg2:T98	
+R79	conj Arg1:T101 Arg2:T97	
+R80	conj Arg1:T101 Arg2:T96	
+R81	s_p Arg1:T98 Arg2:T99	
+R82	s_p Arg1:T97 Arg2:T99	
+R83	s_p Arg1:T96 Arg2:T99	
+T102	Subject 1366 1372	Humans
+T103	Subject 1374 1381	animals
+T104	Subject 1386 1392	plants
+T105	Predicate 1393 1396	are
+T106	Object 1405 1421	Living organisms
+R84	p_o Arg1:T105 Arg2:T106	
+R85	s_p Arg1:T104 Arg2:T105	
+R86	s_p Arg1:T103 Arg2:T105	
+R87	s_p Arg1:T102 Arg2:T105	
+T107	Conj 1382 1385	and
+R88	conj Arg1:T107 Arg2:T104	
+R89	conj Arg1:T107 Arg2:T103	
+R90	conj Arg1:T107 Arg2:T102	
+T108	Subject 1423 1424	I
+T109	Predicate 1425 1429	like
+T110	Object 1430 1438	dolphins
+T111	Object 1443 1452	elephants
+T112	Conj 1439 1442	and
+R91	p_o Arg1:T109 Arg2:T110	
+R92	s_p Arg1:T108 Arg2:T109	
+R93	p_o Arg1:T109 Arg2:T111	
+R94	conj Arg1:T112 Arg2:T111	
+R95	conj Arg1:T112 Arg2:T110	
+T113	Subject 1453 1459	Humans
+T114	Subject 1464 1471	animals
+T115	Seg 1479 1487	pengiuns
+T116	Conj 1472 1478	except
+T117	Conj 1460 1463	and
+R96	conj Arg1:T117 Arg2:T114	
+R97	conj Arg1:T117 Arg2:T113	
+R98	conj Arg1:T116 Arg2:T114	
+R99	conj Arg1:T116 Arg2:T115	
+T118	Predicate 1488 1492	love
+T119	Object 1493 1506	Justin Beiber
+R100	p_o Arg1:T118 Arg2:T119	
+R101	s_p Arg1:T114 Arg2:T118	
+R102	s_p Arg1:T113 Arg2:T118	
