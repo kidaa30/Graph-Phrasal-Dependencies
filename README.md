@@ -36,7 +36,7 @@ python standalone.py
 Folder  | Annotator Github username
 ------- | --------------------------
 00 | hadyelsahar
-01 | 
+01 | MiriamMarx
 02 |
 03 | 
 04 | 
