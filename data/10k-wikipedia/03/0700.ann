@@ -1,0 +1,29 @@
+T1	Subject 0 8	The film
+T3	Object 38 44	rating
+T4	Seg 32 37	NC-17
+R2	is-specialized-by Arg1:T3 Arg2:T4	
+T2	Predicate 20 28	received
+T5	Seg 49 52	its
+T6	Context-Obj 68 75	content
+T7	Context-Prep 45 48	for
+R1	c_co Arg1:T7 Arg2:T6	
+T8	Seg 53 60	graphic
+T9	Seg 61 67	sexual
+R3	p_o Arg1:T2 Arg2:T3	
+R4	is-specialized-by Arg1:T3 Arg2:T7	
+R5	poss Arg1:T6 Arg2:T9	
+R6	poss Arg1:T6 Arg2:T8	
+T10	Conj 77 80	and
+T11	Predicate 81 87	failed
+R7	coref Arg1:T1 Arg2:T5	
+R8	s_p Arg1:T1 Arg2:T2	
+R9	poss Arg1:T6 Arg2:T5	
+R10	conj Arg1:T10 Arg2:T2	
+R11	conj Arg1:T10 Arg2:T11	
+T12	Context-Prep 88 90	at
+R12	p_c Arg1:T11 Arg2:T12	
+T13	Context-Obj 91 105	the box office
+R13	c_co Arg1:T12 Arg2:T13	
+R14	s_p Arg1:T1 Arg2:T11	
+T14	Seg 106 116	afterwards
+T15	Seg 9 19	originally
