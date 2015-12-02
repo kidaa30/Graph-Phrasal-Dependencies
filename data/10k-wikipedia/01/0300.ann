@@ -1,0 +1,11 @@
+T1	Context-Prep 0 13	The following
+A1	Time T1
+T2	Context-Obj 14 18	year
+A2	Time T2
+T3	Subject 19 23	Mann
+T4	Predicate 24 32	received
+T5	Object 33 47	a Grammy Award
+T6	Context-Prep 48 51	for
+T7	Context-Obj 52 74	Best Recording Package
+T8	Context-Prep 75 78	for
+T9	Context-Obj 79 98	the album's artwork
