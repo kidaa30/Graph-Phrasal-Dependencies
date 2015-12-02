@@ -1,2 +1,3 @@
 /server/src/*.pyc
 config.pyc
+data/10k-wikipedia/01/.stats_cache
