@@ -297,8 +297,8 @@ T161	Predicate 2211 2214	ran
 T162	Object 2230 2238	marathon
 T163	Seg 2219 2229	kilometers
 T164	Seg 2215 2218	100
-R131	coref Arg1:T162 Arg2:T163	
-R132	coref Arg1:T163 Arg2:T164	
+R131	is-specialized-by Arg1:T162 Arg2:T163	
+R132	is-specialized-by Arg1:T163 Arg2:T164	
 R133	p_o Arg1:T161 Arg2:T162	
 R134	s_p Arg1:T160 Arg2:T161	
 T165	Subject 2240 2249	John Snow
@@ -731,3 +731,7 @@ R326	s_p Arg1:T384 Arg2:T385
 R327	p_c Arg1:T385 Arg2:T386	
 R328	c_co Arg1:T386 Arg2:T387	
 R329	poss Arg1:T387 Arg2:T388	
+R330	is-specialized-by Arg1:T195 Arg2:T196	
+R331	coref Arg1:T381 Arg2:T373	
+R332	poss Arg1:T380 Arg2:T381	
+R333	coref Arg1:T377 Arg2:T375	
